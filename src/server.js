@@ -5,9 +5,7 @@ import dotenv from 'dotenv';
 import connectDB from './db/index.js';
 import taskRoutes from './routes/taskRoutes.js';
 
-dotenv.config({
-    path:'./env'
-});
+dotenv.config();
 
 const app = express();
 
